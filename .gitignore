@@ -48,3 +48,5 @@ bower.json
 .byebug_history
 
 # End of https://www.gitignore.io/api/rails
+# Ignore application configuration
+/config/application.yml
