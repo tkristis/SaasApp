@@ -27,6 +27,7 @@ gem 'stripe'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'bootstrap-datepicker-rails'
+gem 'figaro'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

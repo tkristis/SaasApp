@@ -6,11 +6,11 @@
   <thead>
     <tr>
       <th>Email</th>
-      <th><%=t '.actions', :default => t("helper.actions") %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
   <tbody>
-    <%= @project_users.each do |project_user| %>
+    <% @project_users.each do |project_user| %>
     <tr>
       <td>
         <%= project_user.email %>
@@ -31,11 +31,11 @@
   <thead>
     <tr>
       <th>Email</th>
-      <th><%=t '.actions', :default => t("helper.actions") %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
   <tbody>
-    <%= @other_users.each do |other_user| %>
+    <% @other_users.each do |other_user| %>
     <tr>
       <td>
         <%= other_user.email %>
